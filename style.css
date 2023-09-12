@@ -21,13 +21,20 @@ aside {
 
 .images {
     display: flex;
-    justify-content: space-between;
+    gap: 20px;
 }
 
 .image {
-    background-color: lightseagreen;
-    width: 33%;
-    min-height: 200px;
+    /* background-color: lightseagreen; */
+    margin: 0;
+    aspect-ratio: 1 / 1;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 footer {
