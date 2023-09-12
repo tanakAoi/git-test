@@ -2,3 +2,19 @@ header {
     height: 100px;
     background-color: cornflowerblue;
 }
+
+main {
+    display: flex;
+}
+
+article {
+    height: 400px;
+    width: 75%;
+    background-color: darksalmon;
+}
+
+aside {
+    height: 400px;
+    width: 25%;
+    background-color: khaki;
+}
