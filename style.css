@@ -18,3 +18,14 @@ aside {
     width: 25%;
     background-color: khaki;
 }
+
+.images {
+    display: flex;
+    justify-content: space-between;
+}
+
+.image {
+    background-color: lightseagreen;
+    width: 33%;
+    min-height: 200px;
+}
