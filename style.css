@@ -29,3 +29,8 @@ aside {
     width: 33%;
     min-height: 200px;
 }
+
+footer {
+    height: 100px;
+    background-color: plum;
+}
